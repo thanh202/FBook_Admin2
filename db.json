@@ -15,5 +15,25 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "users": [
+    {
+      "name": "thanh",
+      "email": "thanhlvph23422@fpt.edu.vn",
+      "password": "123@abc",
+      "id": 1
+    },
+    {
+      "email": "aaa",
+      "password": "aaa",
+      "name": "aaa",
+      "id": 2
+    },
+    {
+      "email": "qewq",
+      "password": "eqqe",
+      "name": "aaaa",
+      "id": 3
+    }
+  ]
 }

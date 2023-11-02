@@ -9,7 +9,7 @@
         class="text-xl font-bold text-center flex items-center justify-center text-white h-full"
         v-show="dataOpenSideBar"
       >
-        Logo
+        FBook
       </div>
       <img
         src="https://avatars.githubusercontent.com/u/97021587?v=4"
@@ -41,25 +41,36 @@
           <router-link to="/" class="px-2 flex space-x-2"
             ><span
               class="pi pi-microsoft"
-              v-tooltip.right="'Dashboard hihihehe'"
+              v-tooltip.right="'Quản lý chi tiết sách'"
             ></span>
-            <span v-show="dataOpenSideBar">Dashboard</span></router-link
+            <span v-show="dataOpenSideBar"
+              >Quản lý chi tiết sách</span
+            ></router-link
+          >
+        </div>
+
+        <div
+          class="py-3 rounded-md cursor-pointer text-gray-300 hover:text-white"
+        >
+          <router-link to="/product" class="px-2 flex space-x-2"
+            ><span
+              class="pi pi-book"
+              v-tooltip.right="'Quản lý loại sách'"
+            ></span>
+            <span v-show="dataOpenSideBar">Quản lý loại sách</span></router-link
           >
         </div>
         <div
           class="py-3 rounded-md cursor-pointer text-gray-300 hover:text-white"
         >
           <router-link to="/staff" class="px-2 flex space-x-2"
-            ><span class="pi pi-user" v-tooltip.right="'User'"></span>
-            <span v-show="dataOpenSideBar">Staff</span></router-link
-          >
-        </div>
-        <div
-          class="py-3 rounded-md cursor-pointer text-gray-300 hover:text-white"
-        >
-          <router-link to="/product" class="px-2 flex space-x-2"
-            ><span class="pi pi-cart-plus" v-tooltip.right="'Product'"></span>
-            <span v-show="dataOpenSideBar">Product</span></router-link
+            ><span
+              class="pi pi-user"
+              v-tooltip.right="'Quản lý Thông tin user'"
+            ></span>
+            <span v-show="dataOpenSideBar"
+              >Quản lý thông tin user</span
+            ></router-link
           >
         </div>
         <div
@@ -67,7 +78,7 @@
         >
           <router-link to="/contact" class="px-2 flex space-x-2"
             ><span class="pi pi-whatsapp" v-tooltip.right="'Contact'"></span>
-            <span v-show="dataOpenSideBar">Contact</span></router-link
+            <span v-show="dataOpenSideBar">Quản lý hóa đơn</span></router-link
           >
         </div>
         <div
@@ -75,7 +86,7 @@
         >
           <router-link to="/customer" class="px-2 flex space-x-2"
             ><span class="pi pi-shield" v-tooltip.right="'Customer'"></span>
-            <span v-show="dataOpenSideBar">Customer</span></router-link
+            <span v-show="dataOpenSideBar">Quản lý thông báo</span></router-link
           >
         </div>
         <div
@@ -86,7 +97,7 @@
               class="pi pi-check-circle"
               v-tooltip.right="'Activation'"
             ></span>
-            <span v-show="dataOpenSideBar">Activation</span></router-link
+            <span v-show="dataOpenSideBar">Lịch sử giao dịch</span></router-link
           >
         </div>
         <div

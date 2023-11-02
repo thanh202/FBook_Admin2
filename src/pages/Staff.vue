@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full">Hello from Staff</div>
+  <div class="w-full h-full">Quản lý Thông Tin User</div>
 </template>
 <script>
 export default {};
