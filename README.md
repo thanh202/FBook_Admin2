@@ -1,3 +1,7 @@
+#run json serve
+json-server --watch db.json
+
+
 # vue-tw2
 
 ## Project setup
