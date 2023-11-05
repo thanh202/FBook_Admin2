@@ -24,16 +24,10 @@
       "id": 1
     },
     {
-      "email": "aaa",
-      "password": "aaa",
-      "name": "aaa",
+      "email": "admin@gmail.com",
+      "password": "thanh",
+      "name": "thanh",
       "id": 2
-    },
-    {
-      "email": "qewq",
-      "password": "eqqe",
-      "name": "aaaa",
-      "id": 3
     }
   ]
 }

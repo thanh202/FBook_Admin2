@@ -18,4 +18,29 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+
+.logo {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.register input,
+.login input {
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+  border: 1px solid skyblue;
+}
+.register button,
+.login button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid skyblue;
+  background: skyblue;
+}
 </style>
